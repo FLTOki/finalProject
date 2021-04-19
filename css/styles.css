@@ -1,0 +1,96 @@
+.nav1
+{
+    background-color: white;
+    padding: 20px;
+}
+.nav1 a
+{
+    text-align: center;
+    text-emphasis-color: black;
+    align-items: center;
+    padding-right: 20px;
+    float: none;
+    position: inherit;
+}
+
+.intro
+{
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 150px;    
+}
+
+@media only screen and (max-width : 400px){
+
+}
+.space
+{
+    padding: 20px;
+}
+
+.samsung
+{
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-image: url("../assets/images/samsung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px;
+}
+
+.watch
+{
+    text-align: left;
+    align-items: center;
+    color: white;
+    background-image: url("../assets/images/smart_watch.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+}
+
+.headphone
+{
+    text-align: left;
+    align-items: center;
+    background-image: url("../assets/images/headphones_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+}
+
+.apple
+{
+    text-align: left;
+    align-items: left;
+    background-image: url("../assets/images/apple.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+}
+
+.tablet
+{
+    background-image: url("../assets/images/tablet.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+
+.tablet_style
+{
+    vertical-align: text-top;
+    vertical-align: top;
+}
+
+.earbuds
+{
+    text-align: left;
+    align-items: center;
+    color: white;
+    background-image: url("../assets/images/earbuds.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 250px;
+}

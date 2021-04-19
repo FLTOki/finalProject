@@ -2,14 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <title>Final Project</title>
 </head>
 <body>
-    <div class="container">
-        <div>
-            
+    <!-- <?php $IPATH = $_SERVER["DOCUMENT_ROOT"].'/assets/php/'; include($IPATH.'header.html'); ?> -->
+    <div class="container-fluid">
+        <div class="nav1">
+            <a href="#">Phones</a>
+            <a href="#">Tablets</a>
+            <a href="#">Laptops</a>
+            <a href="#">TVs</a>
+        </div>
+
+        <div class="intro">
+            <h1>Tech Radar</h1>
+            <h3>Shopping for a new Device?</h3>
+            <p>Look no further!</p>
+            <img src="assets/images/tech_logo.jpg" alt="" width="350px" height="350px">
+        </div>
+
+        <div class="products">
+            <div class="row">
+                <div class="col-md-12 samsung">
+                    <h2>Join the Samsung Family</h2>
+                    <button class="btn btn-outline-light">Review</button>
+                </div>
+            </div>
+            <div style="background-color: black; padding: inherit;"></div>
+            <div class="row">
+                <div class="col-md-6 watch">
+                    <h2>SMART WATCHES</h2>
+                    <h2>Fitness. Elegance. Productivity</h2>
+                    <button class="btn btn-outline-light">Review</button>
+                </div>
+                <div class="col-md-6 headphone">
+                    <h2>HEADPHONES</h2>
+                    <h2>Quality for your ears</h2>
+                    <button class="btn btn-outline-dark">Review</button>
+                </div>
+            </div>
+            <span class="space"></span>
+            <div class="row">
+                <div class="col-md-12 apple">
+                    <h2>Are you an apple fanboy?</h2>
+                    <h2>What is lacking in your ecosystem</h2>
+                    <button class="btn btn-outline-dark">Review</button>
+                </div>
+            </div>
+            <span class="space"></span>
+            <div class="row">
+                <div class="col-md-6 tablet">
+                    <div class="tablet_style">
+                        <h2>TABLETS</h2>
+                        <h2>Productivity and Effeciency on the go</h2>
+                        <button class="btn btn-outline-dark">Review</button>
+                    </div>
+                </div>
+                <div class="col-md-6 earbuds">
+                    <h2>EARBUDS</h2>
+                    <h2>Comfort. Stylish. Modern</h2>
+                    <button class="btn btn-outline-light">Review</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
