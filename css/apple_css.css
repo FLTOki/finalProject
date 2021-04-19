@@ -1,0 +1,26 @@
+.body
+{
+    background-color: black;
+    color: white;
+}
+
+#hide_mac
+{
+    display: none;
+}
+
+.airmax_1
+{
+    background-image: url("../assets/images/airpods_max.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 150px;
+}
+
+.airmax_2
+{
+    background-image: url("../assets/images/AirPods-Max-black.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 210px;
+}

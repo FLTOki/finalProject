@@ -82,10 +82,11 @@
 
 .tablet
 {
-    background-image: url("../assets/images/tablet.webp");
+    background-image: url("../assets/images/tablet.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 250px;
+    text-align: right;
 }
 
 .tablet_style
@@ -109,4 +110,9 @@
 {
     text-align: center;
     font-size: 15px;
+}
+
+#hide, #hide_flex
+{
+    display: none;
 }
