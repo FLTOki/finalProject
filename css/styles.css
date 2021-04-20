@@ -71,7 +71,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 2.0s;
     transform-style: preserve-3d;
 }
 
@@ -129,7 +129,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 2.0s;
     transform-style: preserve-3d;
 }
 
@@ -180,24 +180,10 @@
     background-size: contain;
     background-repeat: no-repeat;
     padding: 250px;
+    width: 600px;
+    height: 500px;
     text-align: right;
-}
-
-.tablet_style
-{
-    vertical-align: text-top;
-    vertical-align: top;
-}
-
-.earbuds
-{
-    text-align: left;
-    align-items: center;
-    color: white;
-    background-image: url("../assets/images/earbuds.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 250px;
+    padding-bottom: 10px;
 }
 
 .footer

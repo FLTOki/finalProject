@@ -7,7 +7,7 @@ h2
     background-image: url('../assets/images/galaxy_tabs7.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -24,7 +24,7 @@ h2
     background-image: url('../assets/images/Magic-Keyboard-iPad-Pro.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -36,6 +36,14 @@ h2
 #hide_samsung, #hide_apple
 {
     display: none;
-    background-color: black;
-    color: white;
+    cursor: pointer;
+}
+
+.click_apple, .click_samsung
+{
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid black; */
 }

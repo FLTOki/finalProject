@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/samsung.css">
     <link rel="stylesheet" href="../css/node_modules/bootstrap/dist/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="../js/script.js"></script>
@@ -14,7 +15,6 @@
             <a href="../index.html">Home</a>
             <a href="phones.html">Phones</a>
             <a href="tablets.html">Tablets</a>
-            <a href="samsung.html">Samsung</a>
             <a href="smart_watch.html">Smart Watches</a>
             <a href="apple.html">Apple</a>
             <a href="headphones.html">Headphones</a>
@@ -30,7 +30,7 @@
         </div>
         <div class="row">
             <div class="col-md-4" id="buds_1">
-                <span class="" id="hide">
+                <span class="clicked_buds" id="hide_buds">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt cumque eius neque ab error sunt labore pariatur non, repellat aut placeat aliquam molestias, maiores tempora unde nemo eum officiis libero.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error labore voluptates, corporis, odit a fugit dolore dolores, nisi repellat corrupti dolor facere officiis eos. Numquam consectetur eum sit exercitationem earum!</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur corrupti cum voluptas rerum eligendi aperiam minima debitis, ea molestias voluptatibus sunt ratione molestiae voluptatem et ipsum enim quisquam illo tempore!</p>
@@ -38,11 +38,20 @@
                 </span>
             </div>
             <div class="col-md-4" id="buds">
-                <img src="../assets/images/galaxy_buds.webp" alt="" width="600px" height="500px">
+                <div id="buds_show">
+                    <span class="clicked_buds">
+                        <img src="../assets/images/galaxy_buds.webp" alt="" width="600px" height="500px">
+                    </span>
+                </div>
+                <!-- <div id="buds_hide">
+                    <span class="clicked_buds">
+                        <img src="../assets/images/AirPods-Max-black.jpg" alt="" width="600px" height="500px">
+                    </span>
+                </div> -->
             </div>
-            <div class="col-md-4" id="buds_2">
+            <!-- <div class="col-md-4" id="buds_2">
 
-            </div>
+            </div> -->
         </div>
         <div class="row">
             <div class="clickable" id="show">

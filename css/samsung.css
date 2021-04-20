@@ -1,0 +1,14 @@
+.row
+{
+    display: flex;
+}
+#hide_buds
+{
+    display: none;
+    cursor: pointer;
+}
+
+#buds
+{
+    cursor: pointer;
+}
