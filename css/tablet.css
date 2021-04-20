@@ -1,0 +1,41 @@
+h2
+{
+    text-align: center;
+}
+.samsung_tab
+{
+    background-image: url('../assets/images/galaxy_tabs7.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 500px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    }
+.samsung_tab:hover, .apple_ipad:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.apple_ipad
+{
+    background-image: url('../assets/images/Magic-Keyboard-iPad-Pro.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 500px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+#hide_samsung, #hide_apple
+{
+    display: none;
+    background-color: black;
+    color: white;
+}
