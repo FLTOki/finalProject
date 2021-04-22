@@ -5,6 +5,12 @@
     padding: 10px;
 }
 
+.section_3
+{
+    text-align: center;
+    align-items: center;
+}
+
 .row
 {
     padding-top: 30px;
@@ -13,7 +19,7 @@
 h2
 {
     text-align: center;
-    padding: 30px;
+    padding: 15px;
 }
 
 #hide_first, #hide_second, #hide_third, #hide_fourth, #hide_fifth, #hide_sixth
@@ -28,4 +34,9 @@ h2
     align-items: center;
     text-align: center;
     font-style: italic;
+}
+
+#hide_second[data-content]
+{
+    display: none;
 }

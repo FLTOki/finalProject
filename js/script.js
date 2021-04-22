@@ -86,4 +86,6 @@ $(document).ready(function() {
     {
       $("#hide_sixth").fadeOut("slow");
     });
+
+    $('[data-toggle="popover"]').popover();
 });
