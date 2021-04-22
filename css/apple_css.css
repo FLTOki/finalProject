@@ -24,3 +24,8 @@
     background-size: contain;
     padding: 210px;
 }
+
+.clickable, .clickable_2
+{
+    display: none;
+}

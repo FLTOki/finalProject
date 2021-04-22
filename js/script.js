@@ -12,15 +12,26 @@ $(document).ready(function() {
       $('#hide_apple').toggle();
     });
 
-    // $('#buds').hover(function() {
-    //     $('#buds_1').show();
-    //   }, function() {
-    //     $('#buds_1').hide();
-    // });
-
     $('.clicked_buds').click(function()
     {
       $('#buds_1').toggle();
       $('#buds_1').toggle();
     });
+
+    $('#show_items').mouseover(function()
+    {
+      $(".clickable").fadeIn("slow");
+    });
+
+    $("#show_mac").mouseover(function()
+    {
+      $("#hide_mac").fadeIn("slow");
+    });
+
+    $("#hide_mac").mouseover(function()
+    {
+      $(".clickable_2").fadeIn("slow");
+    });
+
+
 });
