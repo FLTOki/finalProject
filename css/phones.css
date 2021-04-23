@@ -1,52 +1,42 @@
-.body
+.header
 {
-    color: white;
-}
-
-.container
-{
-    color: white;
-}
-.flip-box_watch
-{
-    background-color: black;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-    cursor: pointer;
-}
-  
-.flip-box-inner_watch
-{
-    position: relative;
-    width: 100%;
-    height: 100%;
     text-align: center;
-    transition: transform 2.0s;
-    transform-style: preserve-3d;
+    font-weight: bolder;
+    padding: 10px;
 }
 
-.flip-box_watch:hover .flip-box-inner_watch
+.section_3
 {
-    transform: rotateY(180deg);
+    text-align: center;
+    align-items: center;
 }
 
-.flip-box-front_watch, .flip-box-back_watch
+.row
 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; 
-    backface-visibility: hidden;
+    padding-top: 30px;
+    align-items: center;
 }
-  
-.flip-box-front_watch
+h2, p
 {
-    color: white;
+    text-align: center;
+    /* padding: 15px; */
 }
-  
-.flip-box-back_watch
+
+#hide_first, #hide_second, #hide_third, #hide_fourth, #hide_fifth, #hide_sixth
 {
-    color: white;
-    transform: rotateY(180deg);
+    display: none;
+    align-items: center;
+    text-align: center;
+}
+
+#show_first, #show_second, #show_third, #show_fourth, #show_fifth, #show_sixth
+{
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+}
+
+#hide_second[data-content]
+{
+    display: none;
 }
